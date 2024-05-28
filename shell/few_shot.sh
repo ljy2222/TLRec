@@ -11,7 +11,7 @@ test_data_path="$root_path/rec_data/$target_domain/test.json"
 echo "===== few-shot setting ====="
 for sample in 16 64 256
 do
-    output_dir="$root_path/output_model/$target_domain/$exp_name/${seed}_${sample}/"  # 保存训练后的lora权重
+    output_dir="$root_path/output_model/$target_domain/$exp_name/${seed}_${sample}/"
     mkdir -p $output_dir
     echo "seed: $seed, sample: $sample"
     CUDA_VISIBLE_DEVICES=$CUDA_ID python rec_tuning.py \

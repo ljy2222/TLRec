@@ -94,7 +94,3 @@ bash ./shell/few_shot.sh 1 0 movie
 bash ./shell/few_shot.sh 1 0 book
 ```
 NOTE: Please modify the root_path in shell files to the folder where you store the code.
-
-## 4. Acknowledgements
-Our code is based on the implementation of [TALLRec](https://github.com/SAI990323/TALLRec) and [NIR](https://github.com/AGI-Edgerunners/LLM-Next-Item-Rec). 
-Thanks for their awesome work.
